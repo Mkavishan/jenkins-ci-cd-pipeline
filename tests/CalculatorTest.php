@@ -18,7 +18,7 @@ class CalculatorTest extends TestCase {
 	public function testDeduction()
 	{
 		$temp1 = new Calculator();
-		$this->assertEquals(2, $temp1->deduction(5, 3));
+		$this->assertEquals(3, $temp1->deduction(5, 3));
 	}
 
 	public function test1() {
