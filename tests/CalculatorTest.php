@@ -12,6 +12,7 @@ use PHPUnit\Framework\TestCase;
 class CalculatorTest extends TestCase {
 
 	public function testSum() {
+		die("jjjj");
 		$this->assertEquals(8, Calculator::sum(5, 3));
 	}
 
